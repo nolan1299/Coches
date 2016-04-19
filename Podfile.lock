@@ -1,0 +1,13 @@
+PODS:
+  - PKHUD (3.1.0)
+  - PureLayout (3.0.1)
+
+DEPENDENCIES:
+  - PKHUD
+  - PureLayout
+
+SPEC CHECKSUMS:
+  PKHUD: 4167eccdb1b3a892fd80ce2b51cb6ba412a889ab
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+
+COCOAPODS: 0.39.0

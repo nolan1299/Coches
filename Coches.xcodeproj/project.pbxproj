@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C6862C1CC3F14800780483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6862B1CC3F14800780483 /* AppDelegate.swift */; };
+		30C6862E1CC3F14800780483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6862D1CC3F14800780483 /* ViewController.swift */; };
+		30C686331CC3F14800780483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C686321CC3F14800780483 /* Assets.xcassets */; };
+		30C686361CC3F14800780483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C686341CC3F14800780483 /* LaunchScreen.storyboard */; };
+		30C686411CC3F14800780483 /* menloHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C686401CC3F14800780483 /* menloHacksProjectTests.swift */; };
+		30C6864C1CC3F14800780483 /* menloHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6864B1CC3F14800780483 /* menloHacksProjectUITests.swift */; };
+		30C6865A1CC3F19100780483 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C686591CC3F19100780483 /* MasterViewController.swift */; };
+		30C686601CC3F2B100780483 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6865F1CC3F2B100780483 /* Question.swift */; };
+		30C686621CC3F2C000780483 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C686611CC3F2C000780483 /* Answer.swift */; };
+		30C686641CC3F2DC00780483 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C686631CC3F2DC00780483 /* Test.swift */; };
+		30C6866C1CC3F51100780483 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6866B1CC3F51100780483 /* DetailViewController.swift */; };
+		30C6866E1CC3FDCF00780483 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C6866D1CC3FDCF00780483 /* MainStoryboard.storyboard */; };
+		6046D2979A4D6486E98E301E /* Pods_menloHacksProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5943FDF2D9DB940437EAE916 /* Pods_menloHacksProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C6863D1CC3F14800780483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C686201CC3F14800780483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C686271CC3F14800780483;
+			remoteInfo = menloHacksProject;
+		};
+		30C686481CC3F14800780483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C686201CC3F14800780483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C686271CC3F14800780483;
+			remoteInfo = menloHacksProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30C686281CC3F14800780483 /* Coches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C6862B1CC3F14800780483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30C6862D1CC3F14800780483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30C686321CC3F14800780483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30C686351CC3F14800780483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30C686371CC3F14800780483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C6863C1CC3F14800780483 /* Coches.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coches.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C686401CC3F14800780483 /* menloHacksProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menloHacksProjectTests.swift; sourceTree = "<group>"; };
+		30C686421CC3F14800780483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C686471CC3F14800780483 /* Coches.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coches.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C6864B1CC3F14800780483 /* menloHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menloHacksProjectUITests.swift; sourceTree = "<group>"; };
+		30C6864D1CC3F14800780483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C686591CC3F19100780483 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		30C6865F1CC3F2B100780483 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../Question.swift; sourceTree = "<group>"; };
+		30C686611CC3F2C000780483 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = ../Answer.swift; sourceTree = "<group>"; };
+		30C686631CC3F2DC00780483 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ../Test.swift; sourceTree = "<group>"; };
+		30C6866B1CC3F51100780483 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		30C6866D1CC3FDCF00780483 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5943FDF2D9DB940437EAE916 /* Pods_menloHacksProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_menloHacksProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9B405695C16B5473A30E66 /* Pods-menloHacksProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menloHacksProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-menloHacksProject/Pods-menloHacksProject.release.xcconfig"; sourceTree = "<group>"; };
+		A856A7A9DE804B4146BC2233 /* Pods-menloHacksProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menloHacksProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-menloHacksProject/Pods-menloHacksProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C686251CC3F14800780483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046D2979A4D6486E98E301E /* Pods_menloHacksProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C686391CC3F14800780483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C686441CC3F14800780483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C60DF3DF089B361332783C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5943FDF2D9DB940437EAE916 /* Pods_menloHacksProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30C6861F1CC3F14800780483 = {
+			isa = PBXGroup;
+			children = (
+				30C6862A1CC3F14800780483 /* menloHacksProject */,
+				30C6863F1CC3F14800780483 /* menloHacksProjectTests */,
+				30C6864A1CC3F14800780483 /* menloHacksProjectUITests */,
+				30C686291CC3F14800780483 /* Products */,
+				6E1E060C5784ACD4837E2C2F /* Pods */,
+				1C60DF3DF089B361332783C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30C686291CC3F14800780483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C686281CC3F14800780483 /* Coches.app */,
+				30C6863C1CC3F14800780483 /* Coches.xctest */,
+				30C686471CC3F14800780483 /* Coches.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C6862A1CC3F14800780483 /* menloHacksProject */ = {
+			isa = PBXGroup;
+			children = (
+				30C6862B1CC3F14800780483 /* AppDelegate.swift */,
+				30C686591CC3F19100780483 /* MasterViewController.swift */,
+				30C6866B1CC3F51100780483 /* DetailViewController.swift */,
+				30C6866A1CC3F3DD00780483 /* Table View Cell */,
+				30C6862D1CC3F14800780483 /* ViewController.swift */,
+				30C686651CC3F2E400780483 /* Test Object */,
+				30C686321CC3F14800780483 /* Assets.xcassets */,
+				30C686341CC3F14800780483 /* LaunchScreen.storyboard */,
+				30C686371CC3F14800780483 /* Info.plist */,
+				30C6866D1CC3FDCF00780483 /* MainStoryboard.storyboard */,
+			);
+			path = menloHacksProject;
+			sourceTree = "<group>";
+		};
+		30C6863F1CC3F14800780483 /* menloHacksProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C686401CC3F14800780483 /* menloHacksProjectTests.swift */,
+				30C686421CC3F14800780483 /* Info.plist */,
+			);
+			path = menloHacksProjectTests;
+			sourceTree = "<group>";
+		};
+		30C6864A1CC3F14800780483 /* menloHacksProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30C6864B1CC3F14800780483 /* menloHacksProjectUITests.swift */,
+				30C6864D1CC3F14800780483 /* Info.plist */,
+			);
+			path = menloHacksProjectUITests;
+			sourceTree = "<group>";
+		};
+		30C686651CC3F2E400780483 /* Test Object */ = {
+			isa = PBXGroup;
+			children = (
+				30C686631CC3F2DC00780483 /* Test.swift */,
+				30C6865F1CC3F2B100780483 /* Question.swift */,
+				30C686611CC3F2C000780483 /* Answer.swift */,
+			);
+			name = "Test Object";
+			sourceTree = "<group>";
+		};
+		30C6866A1CC3F3DD00780483 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		6E1E060C5784ACD4837E2C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A856A7A9DE804B4146BC2233 /* Pods-menloHacksProject.debug.xcconfig */,
+				9B9B405695C16B5473A30E66 /* Pods-menloHacksProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C686271CC3F14800780483 /* Coches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C686501CC3F14800780483 /* Build configuration list for PBXNativeTarget "Coches" */;
+			buildPhases = (
+				F7D421E9D818C1C5C52A9750 /* Check Pods Manifest.lock */,
+				30C686241CC3F14800780483 /* Sources */,
+				30C686251CC3F14800780483 /* Frameworks */,
+				30C686261CC3F14800780483 /* Resources */,
+				407B7B21B649E4F668AD0EBA /* Embed Pods Frameworks */,
+				94BB027F23738DE0E4C40F03 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coches;
+			productName = menloHacksProject;
+			productReference = 30C686281CC3F14800780483 /* Coches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C6863B1CC3F14800780483 /* CochesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C686531CC3F14800780483 /* Build configuration list for PBXNativeTarget "CochesTests" */;
+			buildPhases = (
+				30C686381CC3F14800780483 /* Sources */,
+				30C686391CC3F14800780483 /* Frameworks */,
+				30C6863A1CC3F14800780483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C6863E1CC3F14800780483 /* PBXTargetDependency */,
+			);
+			name = CochesTests;
+			productName = menloHacksProjectTests;
+			productReference = 30C6863C1CC3F14800780483 /* Coches.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30C686461CC3F14800780483 /* CochesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C686561CC3F14800780483 /* Build configuration list for PBXNativeTarget "CochesUITests" */;
+			buildPhases = (
+				30C686431CC3F14800780483 /* Sources */,
+				30C686441CC3F14800780483 /* Frameworks */,
+				30C686451CC3F14800780483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C686491CC3F14800780483 /* PBXTargetDependency */,
+			);
+			name = CochesUITests;
+			productName = menloHacksProjectUITests;
+			productReference = 30C686471CC3F14800780483 /* Coches.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C686201CC3F14800780483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nolan and Shannon";
+				TargetAttributes = {
+					30C686271CC3F14800780483 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					30C6863B1CC3F14800780483 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30C686271CC3F14800780483;
+					};
+					30C686461CC3F14800780483 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30C686271CC3F14800780483;
+					};
+				};
+			};
+			buildConfigurationList = 30C686231CC3F14800780483 /* Build configuration list for PBXProject "Coches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C6861F1CC3F14800780483;
+			productRefGroup = 30C686291CC3F14800780483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C686271CC3F14800780483 /* Coches */,
+				30C6863B1CC3F14800780483 /* CochesTests */,
+				30C686461CC3F14800780483 /* CochesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C686261CC3F14800780483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C686361CC3F14800780483 /* LaunchScreen.storyboard in Resources */,
+				30C6866E1CC3FDCF00780483 /* MainStoryboard.storyboard in Resources */,
+				30C686331CC3F14800780483 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C6863A1CC3F14800780483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C686451CC3F14800780483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		407B7B21B649E4F668AD0EBA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-menloHacksProject/Pods-menloHacksProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BB027F23738DE0E4C40F03 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-menloHacksProject/Pods-menloHacksProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D421E9D818C1C5C52A9750 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C686241CC3F14800780483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C686601CC3F2B100780483 /* Question.swift in Sources */,
+				30C6862E1CC3F14800780483 /* ViewController.swift in Sources */,
+				30C686621CC3F2C000780483 /* Answer.swift in Sources */,
+				30C6862C1CC3F14800780483 /* AppDelegate.swift in Sources */,
+				30C6865A1CC3F19100780483 /* MasterViewController.swift in Sources */,
+				30C686641CC3F2DC00780483 /* Test.swift in Sources */,
+				30C6866C1CC3F51100780483 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C686381CC3F14800780483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C686411CC3F14800780483 /* menloHacksProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C686431CC3F14800780483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C6864C1CC3F14800780483 /* menloHacksProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C6863E1CC3F14800780483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C686271CC3F14800780483 /* Coches */;
+			targetProxy = 30C6863D1CC3F14800780483 /* PBXContainerItemProxy */;
+		};
+		30C686491CC3F14800780483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C686271CC3F14800780483 /* Coches */;
+			targetProxy = 30C686481CC3F14800780483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30C686341CC3F14800780483 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C686351CC3F14800780483 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C6864E1CC3F14800780483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30C6864F1CC3F14800780483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C686511CC3F14800780483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A856A7A9DE804B4146BC2233 /* Pods-menloHacksProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = menloHacksProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.CochesParaTodos;
+				PRODUCT_NAME = Coches;
+			};
+			name = Debug;
+		};
+		30C686521CC3F14800780483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9B405695C16B5473A30E66 /* Pods-menloHacksProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = menloHacksProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.CochesParaTodos;
+				PRODUCT_NAME = Coches;
+			};
+			name = Release;
+		};
+		30C686541CC3F14800780483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = menloHacksProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.menloHacksProjectTests;
+				PRODUCT_NAME = Coches;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coches.app/Coches";
+			};
+			name = Debug;
+		};
+		30C686551CC3F14800780483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = menloHacksProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.menloHacksProjectTests;
+				PRODUCT_NAME = Coches;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coches.app/Coches";
+			};
+			name = Release;
+		};
+		30C686571CC3F14800780483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = menloHacksProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.menloHacksProjectUITests;
+				PRODUCT_NAME = Coches;
+				TEST_TARGET_NAME = menloHacksProject;
+			};
+			name = Debug;
+		};
+		30C686581CC3F14800780483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = menloHacksProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.menloHacksProjectUITests;
+				PRODUCT_NAME = Coches;
+				TEST_TARGET_NAME = menloHacksProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C686231CC3F14800780483 /* Build configuration list for PBXProject "Coches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C6864E1CC3F14800780483 /* Debug */,
+				30C6864F1CC3F14800780483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C686501CC3F14800780483 /* Build configuration list for PBXNativeTarget "Coches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C686511CC3F14800780483 /* Debug */,
+				30C686521CC3F14800780483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C686531CC3F14800780483 /* Build configuration list for PBXNativeTarget "CochesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C686541CC3F14800780483 /* Debug */,
+				30C686551CC3F14800780483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C686561CC3F14800780483 /* Build configuration list for PBXNativeTarget "CochesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C686571CC3F14800780483 /* Debug */,
+				30C686581CC3F14800780483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C686201CC3F14800780483 /* Project object */;
+}
